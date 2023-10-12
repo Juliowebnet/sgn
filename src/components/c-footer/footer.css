@@ -1,0 +1,38 @@
+.c-footer{
+    height: 120px;
+    background-color: #484848;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.c-footer__logo{
+    height: 43px;
+}
+.c-footer__rrss-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.c-footer__rrss-image{
+    width: 32px;
+    height: 32px;
+}
+.c-footer__logo-moviti{
+    height: 28px;
+}
+
+@media (max-width: 600px) {
+    .c-footer__logo{
+        height: 30px;
+    }
+    .c-footer__rrss-image{
+        width: 28px;
+        height: 28px;
+    }
+    .c-footer__logo-moviti{
+        height: 22px;
+    }
+}

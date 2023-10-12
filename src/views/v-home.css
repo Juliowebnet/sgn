@@ -1,0 +1,432 @@
+.v-home__section__header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/banner2.png");
+    background-size: cover;
+}
+.v-home__section__header__backgouend-opacity{
+    width: 100%;
+    height: 100%;
+    background: #0000007c;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.v-home__section__header__title-group{
+    margin-left: 100px;
+}
+.v-home__section__header__dots{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+.v-home__section__header__dot{
+   width: 14px;
+   height: 14px;
+   background-color: #fff;
+   border-radius: 50px;
+}
+.v-home__section__header__title{
+    font-size: 60px;
+    color: #fff;
+    line-height: 60px;
+    margin-top: 40px;
+}
+.v-home__section__header__title b{
+    font-family: GothamBold;
+    font-size: 60px;
+    line-height: 60px;
+    color: #fff;
+    margin-top: 40px;
+}
+.v-home__section__header__button{
+    width: 350px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: GothamMedium;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4A8B2C;
+    border-radius: 50px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.v-home__section__about-us{
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.v-home__section__about-us__title{
+    font-family: GothamBold;
+    font-size: 40px;
+    color: #3d3c3c;
+    margin: 60px 0;
+}
+.v-home__section__about-us__cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.v-home__section__about-us__card{
+    width: 300px;
+    height: 350px;
+    box-shadow: 0px 4px 50px #00000029;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0;
+}
+.v-home__section__about-us__card-title{
+    font-family: GothamBold;
+    font-size: 23px;
+    color: #3d3c3c;
+    margin: 10px 0;
+}
+.v-home__section__about-us__card-text{
+    text-align: center;
+    font-size: 18px;
+    color: #3d3c3c;
+    padding: 15px
+}
+.v-home__section__gallery{
+    width: 100%;
+    background-image: url('../assets/gallery.webp');
+    background-position: center;
+}
+.v-home__section__certifications{
+    width: 100%;
+    min-height: 500px;
+    background-image: url('../assets/backgroud-certification.svg');
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.v-home__section__certification-item{
+    width: 220px;
+}
+.v-home__section__map{
+    width: 100%;
+    height: 900px;
+    background-image: url('../assets/map1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.v-home__section__stations{
+    width: 100%;
+    height: 200px;
+}
+.v-home__section__stations__card{
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: #fff;
+    box-shadow: 0px 5px 40px #00000029;
+    border-radius: 50px;
+    position: relative;
+    top: -150px;
+    left: 20%;
+    padding: 20px 0;
+}
+.v-home__section__stations__title{
+    font-family: GothamBold;
+    font-size: 50px;
+}
+.v-home__section__stations__container{
+    display: flex;
+    gap: 16px;
+    margin-top: 30px
+}
+.v-home__section__stations__items-group{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.v-home__section__stations__item{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.v-home__section__stations-icon{
+    width: 54px;
+    height: 70px;
+}
+.v-home__section__stations__side-labels-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.v-home__section__stations__side-label-box{
+    min-width: 150px;
+    height: 50px;
+    background: #bde7aa;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 15px;
+}
+.v-home__section__stations__side-label-decoration{
+    width: 20px;
+    height: 20px;
+    background-color: #bde7aa;
+    transform: rotate(45deg);
+    position: relative;
+    bottom: -5px;
+    left: -23px;
+}
+.v-home__section__stations__side-label-text{
+    font-family: GothamBold;
+    font-size: 16px;
+}
+.v-home__section__contact-us{
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.v-home__section__contact-us__form-container{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.v-home__section__contact-us__form-title-container{
+    width: 600px;
+    margin-bottom: 40px;
+}
+.v-home__section__contact-us__form-title{
+    font-family: GothamBold;
+    font-size: 50px;
+    text-align: left;
+    margin: 30px 0;
+}
+.v-home__section__form{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.v-home__section__form-input-group{
+    width: 90%;
+    height: 60px;
+    background: #F8F8F8;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    padding: 0 15px;
+}
+.v-home__section__form-input-icon{
+    width: 26px;
+    height: 27px
+}
+.v-home__section__form-input-text{
+    width: 70%;
+    height: 50px;
+    border: none;
+    background: none;
+}
+.v-home__section__form-input-text:focus{
+    width: 70%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: none;
+}
+.v-home__section__form-text-area-group{
+    width: 90%;
+    height: 170px;
+    background: #F8F8F8;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 15px;
+}
+.v-home__section__form-input-text-area{
+    width: 70%;
+    height: 90%;
+    border: none;
+    background: none;
+}
+.v-home__section__form-input-text-area:focus{
+    width: 70%;
+    height: 90%;
+    border: none;
+    outline: none;
+    background: none;
+}
+.v-home__section__contact-us__map{
+    width: 50%;
+}
+.v-home__section__form-button{
+    width: 95%;
+    height: 60px;
+    font-family: GothamBold;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    background-color: #4A8B2C;
+}
+.v-home__footer{
+    width: 100%;
+    height: 300px;
+    background-color: #22382A;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+    padding: 20px;
+}
+.v-home__footer__logo-container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 60px;
+}
+.v-home__footer__logo{
+    width: 250px;
+}
+.v-home__footer__nav{
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    margin-top: 10px;
+}
+.v-home__footer__nav-ietm{
+    text-decoration: none;
+    color: #fff;
+}
+.v-home__footer__nav-ietm:hover{
+    text-decoration: none;
+    color: #fff;
+    border-bottom: solid 2px #fff;
+}
+.v-home__footer__info-container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+.v-home__footer__addres{
+    font-family: GothamBold;
+    font-size: 22px;
+    line-height: 30px;
+    color: #90C179;
+}
+.v-home__footer__info-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+.v-home__footer__icon{
+    width: 28px;
+}
+.v-home__footer__info-text{
+    font-size: 18px;
+    color: #fff;
+}
+
+@media (max-width: 900px) {
+    .v-home__section__header__title-group{
+        margin-left: 20px;
+    }
+    .v-home__section__header__dot{
+        width: 10px;
+        height: 10px;
+     }
+     .v-home__section__header__title{
+         font-size: 40px;
+         line-height: 40px;
+         margin-top: 20px;
+     }
+     .v-home__section__header__title b{
+         font-family: GothamBold;
+         font-size: 40px;
+         line-height: 60px;
+         color: #fff;
+         margin-top: 40px;
+     }
+    .v-home__section__stations{
+       display: none;
+    }
+    .v-home__section__contact-us__form-title-container{
+        width: 90%;
+    }
+    .v-home__section__form{
+        width: 90%;
+    }
+    .v-home__section__contact-us__form-container{
+        width: 100%;
+    }
+    .v-home__section__contact-us__map{
+        width: 100%;
+        height: 400px;
+        margin-top: 20px;
+    }
+    .v-home__footer{
+       flex-direction: column;
+       gap: 20px;
+       padding: 0;
+    }
+    .v-home__footer__logo-container{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .v-home__footer__logo{
+        width: 200px;
+        margin-top: 30px;
+    }
+    .v-home__footer__nav{
+        display: none;
+    }
+    .v-home__footer__info-container{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .v-home__footer__addres{
+        text-align: center;
+        font-size: 16px;
+    }
+    .v-home__footer__icon{
+        width: 20px;
+    }
+    .v-home__footer__info-text{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "slider1": [
+        {
+            "id": 0,
+            "imgPath": "../../Images/photo1.png"
+        },
+        {
+            "id": 1,
+            "imgPath": "../../Images/photo2.png"
+        },
+        {
+            "id": 2,
+            "imgPath": "../../Images/photo3.png"
+        }
+    ]
+}

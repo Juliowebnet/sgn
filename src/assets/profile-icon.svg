@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 37">
+  <g id="Profile" transform="translate(0.141 0.415)">
+    <rect id="Profile_Frame_Background_" data-name="Profile [Frame Background]" width="36" height="37"
+      transform="translate(-0.141 -0.415)" fill="rgba(0,0,0,0)" />
+    <g id="Iconly_Light-Outline_Profile" data-name="Iconly/Light-Outline/Profile" transform="translate(6.166 3.623)">
+      <g id="Profile-2" data-name="Profile">
+        <path id="Combined-Shape"
+          d="M24.066,24.6c0,5.008-6.867,5.586-12.031,5.586h-.37C8.375,30.181,0,29.973,0,24.572c0-4.905,6.591-5.561,11.716-5.586H12.4c3.29.008,11.662.216,11.662,5.617ZM12.034,21.265c-6.474,0-9.755,1.112-9.755,3.308,0,2.215,3.282,3.338,9.755,3.338S21.787,26.8,21.787,24.6c0-2.215-3.28-3.338-9.752-3.338ZM12.034,0a8.067,8.067,0,0,1,0,16.134h-.049A8.067,8.067,0,0,1,12.034,0Zm0,2.17a5.9,5.9,0,0,0-.044,11.8l.044,1.085V13.965a5.9,5.9,0,0,0,0-11.8Z"
+          transform="translate(0 0)" fill="#848484" fill-rule="evenodd" />
+      </g>
+    </g>
+  </g>
+</svg>
