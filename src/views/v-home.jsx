@@ -1,4 +1,6 @@
+import { useState } from 'react';
 import { ReactSVG } from 'react-svg';
+import emailjs from '@emailjs/browser';
 
 import "./v-home.css"
 import data from '../data/slider.json'
@@ -21,6 +23,30 @@ import CHeader from "../components/c-header/c-header"
 import CSlider from "../components/c-slider/c-slider"
 
 export default function VHome() {
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [phone, setPhone] = useState('')
+    const [message, setMessage] = useState('')
+    const [success, setSuccess] = useState(false)
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.send("service_3gd4lyi","template_h8is8z5", {name: name, email: email, phone: phone, message: message}, 'jBYdk_-pJvjLt3-op')
+          .then((result) => {
+              console.log(result.status);
+              setName('');
+              setEmail('');
+              setPhone('');
+              setMessage('');
+              if(result.status === 200){
+                setSuccess(true)
+              }
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
+
     return(
         <div id='inicio' className="v-home">
             <section className="v-home__section__header">
@@ -130,24 +156,25 @@ export default function VHome() {
                     <div className="v-home__section__contact-us__form-title-container">
                         <h2 className="v-home__section__contact-us__form-title">Contacto</h2>
                     </div>
-                    <form className="v-home__section__form">
+                    <form onSubmit={sendEmail} className="v-home__section__form">
                         <div className="v-home__section__form-input-group">
                             <ReactSVG src={ProfileIcon} className="v-home__section__form-input-icon"/>
-                            <input type="text" placeholder='Nombre' className="v-home__section__form-input-text"/>
+                            <input type="text" placeholder='Nombre' className="v-home__section__form-input-text" value={name} onChange={(e)=>{setName(e.target.value)}}/>
                         </div>
                         <div className="v-home__section__form-input-group">
                             <ReactSVG src={EmailIcon} className="v-home__section__form-input-icon"/>
-                            <input type="text" placeholder='Email' className="v-home__section__form-input-text"/>
+                            <input type="text" placeholder='Email' className="v-home__section__form-input-text" value={email} onChange={(e)=>{setEmail(e.target.value)}}/>
                         </div>
                         <div className="v-home__section__form-input-group">
                             <ReactSVG src={PhoneIcon} className="v-home__section__form-input-icon"/>
-                            <input type="text" placeholder='Teléfono' className="v-home__section__form-input-text"/>
+                            <input type="text" placeholder='Teléfono' className="v-home__section__form-input-text" value={phone} onChange={(e)=>{setPhone(e.target.value)}}/>
                         </div>
                         <div className="v-home__section__form-text-area-group">
                             <ReactSVG src={MessageIcon} className="v-home__section__form-input-icon"/>
-                            <textarea name="" id="" cols="20" rows="10" className="v-home__section__form-input-text-area" placeholder='Comentarios'></textarea>
+                            <textarea name="" id="" cols="20" rows="10" className="v-home__section__form-input-text-area" placeholder='Comentarios' value={message} onChange={(e)=>{setMessage(e.target.value)}}></textarea>
                         </div>
-                        <input type="submit" value="Enviar" className="v-home__section__form-button"/>
+                        {name && email && phone && message ? <input type="submit" value="Enviar" className="v-home__section__form-button"/> : <input type="submit" value="Enviar" className="v-home__section__form-button__disabled"/>}
+                        {success && <div className='v-home__section__form__success'>Formulario enviado exitosamente</div>}
                     </form>
                 </div>
                 <div className="v-home__section__contact-us__map">
@@ -165,7 +192,7 @@ export default function VHome() {
                     </div>
                 </div>
                 <div className="v-home__footer__info-container">
-                    <p className="v-home__footer__addres">Av. Winston Churchill no. 95 Torre Blue Mall Piso 28</p>
+                    <p className="v-home__footer__addres">Av. Winston Churchill NO. 95 Torre Blue Mall, Piso 28</p>
                     <div className="v-home__footer__info-item">
                         <ReactSVG src={PhoneIcon2} className="v-home__footer__icon"/>
                         <p className="v-home__footer__info-text">info@sng.com.do</p>
