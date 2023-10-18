@@ -15,6 +15,8 @@ import StationIcon from '../assets/station-icon.svg'
 import ProfileIcon from '../assets/profile-icon.svg'
 import EmailIcon from '../assets/email-icon.svg'
 import PhoneIcon from '../assets/phone-icon.svg'
+import EmailIconWhite from '../assets/email-icon-white.svg'
+import PhoneIconWhite from '../assets/phone-icon-white.svg'
 // import PhoneIcon2 from '../assets/phone-icon2.svg'
 import MessageIcon from '../assets/message-icon.svg'
 import Logo from '../assets/logo.svg'
@@ -194,11 +196,11 @@ export default function VHome() {
                 <div className="v-home__footer__info-container">
                     <p className="v-home__footer__addres">Av. Winston Churchill NO. 95 Torre Blue Mall, Piso 28</p>
                     <div className="v-home__footer__info-item">
-                        <ReactSVG src={EmailIcon} className="v-home__footer__icon"/>
+                        <ReactSVG src={EmailIconWhite} className="v-home__footer__icon"/>
                         <p className="v-home__footer__info-text">info@sng.com.do</p>
                     </div>
                     <div className="v-home__footer__info-item">
-                        <ReactSVG src={PhoneIcon} className="v-home__footer__icon"/>
+                        <ReactSVG src={PhoneIconWhite} className="v-home__footer__icon"/>
                         <p className="v-home__footer__info-text">809-533-3373</p>
                     </div>
                 </div>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 37">
+  <g id="Message" transform="translate(0.141 0.439)">
+    <rect id="Message_Frame_Background_" data-name="Message [Frame Background]" width="36" height="37"
+      transform="translate(-0.141 -0.439)" fill="rgba(0,0,0,0)" />
+    <g id="Iconly_Light-Outline_Message" data-name="Iconly/Light-Outline/Message" transform="translate(1.608 3.028)">
+      <g id="Message-2" data-name="Message">
+        <path id="Combined-Shape"
+          d="M23.791,0c5.059,0,8.874,4.128,8.874,9.6V20.037a9.938,9.938,0,0,1-2.791,7.129,8.4,8.4,0,0,1-6.059,2.461H8.845a8.393,8.393,0,0,1-6.054-2.461A9.938,9.938,0,0,1,0,20.037V9.6C0,4.128,3.815,0,8.874,0Zm0,2.279H8.874c-3.821,0-6.6,3.08-6.6,7.323V20.037A7.677,7.677,0,0,0,4.4,25.55a6.154,6.154,0,0,0,4.45,1.8H23.791s.015,0,.024,0a6.151,6.151,0,0,0,4.45-1.8,7.67,7.67,0,0,0,2.121-5.514V9.6c0-4.243-2.774-7.323-6.6-7.323Zm2.394,7.033a1.141,1.141,0,0,1-.166,1.6L19.268,16.4a4.621,4.621,0,0,1-5.772.009L6.682,10.917a1.139,1.139,0,1,1,1.43-1.775l6.808,5.488a2.345,2.345,0,0,0,2.922-.006l6.74-5.479a1.138,1.138,0,0,1,1.6.166Z"
+          transform="translate(0 0)" fill="#fff" fill-rule="evenodd" />
+      </g>
+    </g>
+  </g>
+</svg>
